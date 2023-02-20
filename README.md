@@ -21,4 +21,4 @@ a prime number.
 
 ## Challenge 2
 
-Whether or not x % 599 would be a good hash function depends largely on the type of string being passed in. The string can vary from lowercase letters, uppercase letters, long, or short. 
+Whether or not x % 599 would be a good hash function depends largely on the type of string being passed in. The string can vary from lowercase letters, uppercase letters, long, or short. In the scenario that the summation of characters is any less than 599 and are patterned, the distribution of values is not very even. For example, short (3 characters) strings made up of uppercase letters can have summation values ranged between 195 to 270. In this case, the indices of values would be very close to eachother and therefore not very well distributed. However, if the summation is larger than 599 (which can be achieved with longer strings or lowercase letters), the function will map out more evenly-distributed values.
