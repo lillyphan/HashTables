@@ -16,5 +16,9 @@ patterned, the indices collide as shown by the example below.
 - 30 % 7 = 2
 - 40 % 7 = 5
 
-To avoid collisions, n must share as little common factors with the hash value as possible. To achieve this, n should be a number with feew factor, AKA,
+To avoid collisions, n must share as little common factors with the hash value as possible. To achieve this, n should be a number with few factor, AKA,
 a prime number.
+
+## Challenge 2
+
+Whether or not x % 599 would be a good hash function depends largely on the type of string being passed in. The string can vary from lowercase letters, uppercase letters, long, or short. 
